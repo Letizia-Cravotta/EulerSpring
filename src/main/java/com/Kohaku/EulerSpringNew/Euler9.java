@@ -16,7 +16,7 @@ public class Euler9 {
        for(int a=1; a<sumOfABC; a++){
            for(int b=a; b<sumOfABC; b++){
                int c = sumOfABC - a - b;
-               if(c > 0 && isPythagoreanTriplet(a, b, c)){
+               if(c > b && isPythagoreanTriplet(a, b, c)){
                    return a*b*c;
                }
            }

@@ -15,6 +15,7 @@ public class Euler9Test {
     @Test
     void solve(){
         assertEquals(60, euler9.solve(12));
+        assertEquals(-1, euler9.solve(13));
         assertEquals(31875000, euler9.solve(1000));
 
     }
